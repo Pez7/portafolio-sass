@@ -1,1 +1,81 @@
 @import 'materialize-src/sass/materialize.scss';
+
+.carousel {
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  display:none;
+  
+  .wrapper {
+    left: 0px;
+    display: block;
+    transform: translate3d(0, 0, 0);
+    transition: all 400ms ease;
+    
+    &:after {
+      content: '';
+      display: block;
+      clear: both;
+      visibility: hidden;
+      line-height: 0;
+      height: 0;
+    }
+    
+    .item {
+      float: left;
+      display: block;
+      height: auto;
+      backface-visibility: hidden;
+      transform: translate3d(0,0,0);
+    }
+  }
+  
+  .control {
+    .next, .prew {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 10%;
+      min-width: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      cursor: pointer;
+    }
+    
+    .prew {
+      left: 0;
+    }
+    
+    .next {
+      right: 0;
+    }
+    
+    .buletts {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      
+      li {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        border: 1px solid #fff;
+        margin: 15px 5px;
+        cursor: pointer;
+        
+        &.active {
+          background: #fff;
+        }
+      }
+    }
+  }
+}
+
