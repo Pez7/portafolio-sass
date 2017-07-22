@@ -6836,7 +6836,11 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
         background: #fff; }
 
 body {
-  background-color: black; }
+  background-color: #2bbbad; }
+
+nav {
+  position: fixed;
+  color: none; }
 
 #dropdown1 {
   padding: 0;
@@ -6871,5 +6875,12 @@ body {
   margin: 50px 0 0 -50px; }
   #dropdown2 li:hover {
     background-color: #9c27b0; }
+
+#second {
+  background-color: #fff;
+  width: initial;
+  border-radius: 10px; }
+  #second div div p {
+    color: #c1c1c1; }
 
 /*# sourceMappingURL=main.css.map */

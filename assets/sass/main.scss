@@ -81,7 +81,11 @@
   }
 }
 body{
-	background-color:black;
+	background-color:#2bbbad;
+}
+nav{
+	position:fixed;
+	color:none;
 }
 #dropdown1 {
 	padding: 0;
@@ -126,4 +130,20 @@ body{
 	li:hover{
 		background-color:#9c27b0;
 	}
+}
+#second{
+	background-color:#fff;
+	width: initial;
+	border-radius:10px;
+	div{
+		div{}
+		div{
+			p{
+				color:#c1c1c1;
+			}
+		}
+	}
+}
+#third{
+
 }
