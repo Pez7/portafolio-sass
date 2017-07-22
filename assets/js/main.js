@@ -1,3 +1,4 @@
+/*Carousel*/
 (function($, window, document) {
   var Carousel = {
     init: function(opt, el) {
@@ -276,3 +277,4 @@ $(document).ready(function() {
     };
   });
 })(jQuery);
+/*Fin carousel*/

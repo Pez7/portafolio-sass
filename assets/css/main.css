@@ -1,3 +1,4 @@
+@import url(assets/css/dashicons.min.css);
 .materialize-red {
   background-color: #e51c23 !important; }
 
@@ -6772,6 +6773,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/ }
 
+#img1 {
+  background-image: url(assets/img/img_slider_2.jpg); }
+
 .carousel {
   overflow: hidden;
   position: relative;
@@ -6796,9 +6800,10 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
       display: block;
       height: auto;
       backface-visibility: hidden;
-      transform: translate3d(0, 0, 0); }
+      transform: translate3d(0, 0, 0);
+      width: 100%; }
   .carousel .control .next, .carousel .control .prew {
-    position: absolute;
+    position: relative;
     top: 0;
     bottom: 0;
     width: 10%;
@@ -6813,7 +6818,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   .carousel .control .next {
     right: 0; }
   .carousel .control .buletts {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
@@ -6829,5 +6834,42 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
       cursor: pointer; }
       .carousel .control .buletts li.active {
         background: #fff; }
+
+body {
+  background-color: black; }
+
+#dropdown1 {
+  padding: 0;
+  margin: 47px 0 0 -90px; }
+  #dropdown1 li a {
+    margin: 0 5px;
+    padding: 12px 20px 12px 12px;
+    font-size: 13px;
+    border-radius: 2px;
+    color: #333333; }
+
+#dropdown1 {
+  padding: 0;
+  margin: 47px 0 0 -90px; }
+  #dropdown1 li:hover {
+    background-color: #e91e63; }
+
+#dropdown2 {
+  padding: 0;
+  margin: 50px 0 0 -50px; }
+  #dropdown2 li {
+    margin: 0; }
+    #dropdown2 li a {
+      margin: 0 5px;
+      padding: 12px 20px 12px 12px;
+      font-size: 13px;
+      border-radius: 2px;
+      color: #333333; }
+
+#dropdown2 {
+  padding: 0;
+  margin: 50px 0 0 -50px; }
+  #dropdown2 li:hover {
+    background-color: #9c27b0; }
 
 /*# sourceMappingURL=main.css.map */
