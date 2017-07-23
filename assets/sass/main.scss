@@ -264,7 +264,6 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
 		width: initial;
 	div{
 		div{
-			margin-top: 87px;
 			h2{
 				font-family:$titulos_font;
 				font-weight: 700;
@@ -280,14 +279,22 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
 		}
 	}
 	div{//row
+			margin: 52px -15px 38px;
+			padding: 0 37px;
 		div{//col m3
 			div{//div vacio
-				background-color:#fff;
-				border-radius:6px;
+    background-color: #fff;
+    border-radius: 6px;
+    width: 100%;
+    margin: -36px 0px 24px;
 				div{//contenedor img e info
 					img{
 						width:230px;
-						height:345;
+						height:345px;
+						border-radius: 6px;
+						margin-top: -40px;
+						box-shadow: -1px 3px 8px #888888;
+						cursor:pointer;
 					}
 					div{//info
 						h6{
@@ -307,8 +314,10 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
 							color: #999;
 							font-family:$textos;
 							font-weight:300;
+							font-size: 13px;
 						}
 						div{
+							display:inline;
 							p{
 								
 							}
@@ -317,5 +326,221 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
 				}
 			}
 		}
+	}
+}
+#fifth{
+		width: initial;
+	div{
+		div{
+			h2{
+				font-family:$titulos_font;
+				font-weight: 700;
+				color: #3c4858;
+				font-size: 36.4px;
+			}
+			h5{
+				font-family: $textos;
+				font-weight:300;
+				font-size:17px;
+				color:#999;
+			}
+		}
+	}
+}
+#row-photo1 {
+	display:flex;
+	width:1170px;
+	height:340px;
+	div{
+		img{
+		width: 359px;
+    	height: 271px;
+    	padding: 0px 0px 0px 0px;
+    	margin: 0px 0px 0px 46px;
+    	border-radius: 6px;
+    	box-shadow:0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+		}
+	}
+}
+#row-photo2 {
+	display:flex;
+	width:1170px;
+	height:340px;
+	div{
+		img{
+    		width: 555px;
+    		height: 280px;
+    		padding: 0 0px 0px 0px;
+    		margin: -22px 0px 0px 48px;
+    		border-radius: 6px;
+    		box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+		}
+	}
+}
+#row-photo3 {
+	display:flex;
+	width:1170px;
+	height:340px;
+	div{
+		img{
+			width: 360px;
+    		height: 280px;
+    		padding: 0px 0px 0px 0px;
+    		margin: 0px 0px 0px 46px;
+    		border-radius: 6px;
+    		box-shadow:0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+		}
+	}
+}
+#sixth{
+		width: initial;
+	div{
+		div{
+			h2{
+				font-family:$titulos_font;
+				font-weight: 700;
+				color: #3c4858;
+				font-size: 36.4px;
+			}
+			h5{
+				font-family: $textos;
+				font-weight:300;
+				font-size:20px;
+				color:#999;
+			}
+		}
+	}
+}
+#team1{
+    	width: 1170px;
+    	height: 197px;
+    	margin: 107px 0 0 57px;
+	div{
+		div{
+			div{
+				img{
+					width:201px;
+					height:201px;
+				}
+			}
+			div{
+    			width: 282px;
+    			height: 255px;
+				div{
+					h4{
+					color: #3c4858;
+    				font-family:$titulos_font;
+    				font-weight:700;
+    				font-size: 18px;
+					}
+					h6{
+					color: #777;
+    				font-size: 12.6px;
+    				font-weight: 500;
+					}
+					p{
+					color: #999;
+    				font-size: 14px;
+    				font-family:$textos;
+    				font-weight:300;
+					}
+				}
+			}
+		}
+	}
+}
+#team2{
+    width: 1170px;
+    height: 340px;
+    margin: 107px 0 0 57px;
+	div{
+		div{
+			div{
+				img{
+					width:201px;
+					height:201px;
+				}
+			}
+			div{
+    			width: 282px;
+    			height: 255px;
+				div{
+					h4{
+					color: #3c4858;
+    				font-family:$titulos_font;
+    				font-weight:700;
+    				font-size: 18px;
+					}
+					h6{
+					color: #777;
+    				font-size: 12.6px;
+    				font-weight: 500;
+					}
+					p{
+					color: #999;
+    				font-size: 14px;
+    				font-family:$textos;
+    				font-weight:300;
+					}
+					div{}
+				}
+			}
+		}
+	}
+}
+#ceo{
+	i{
+		color:#3B5998;
+	}
+	i{
+		color:#DD4B39;
+	}
+	i{
+		color:#55ACEE;
+	}
+	i{
+		color:#0976B4;
+	}
+}
+#marketing{
+	i{
+		color:#3B5998;
+	}
+	i{
+		color:#55ACEE;
+	}
+	i{
+		color:#CC2127;
+	}
+	i{
+		color:#0976B4;
+	}
+}
+#designer{
+	i{
+		color:#3B5998;
+	}
+	i{
+		color:#55ACEE;
+	}
+	i{
+		color:#0976B4;
+	}
+	i{
+		color:#DF3E7B;
+	}
+}
+#developer{
+	i{
+		color:black;
+	}
+	i{
+		color:#3B5998;
+	}
+	i{
+		color:#55ACEE;
+	}
+	i{
+		color:#0976B4;
 	}
 }

@@ -6975,38 +6975,196 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
 #fourth {
   background-color: #f0f0f0;
   width: initial; }
-  #fourth div div {
-    margin-top: 87px; }
-    #fourth div div h2 {
-      font-family: "Roboto Slab", "Times New Roman", serif;
-      font-weight: 700;
-      color: #3c4858;
-      font-size: 36.4px; }
-    #fourth div div h5 {
-      font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-      font-weight: 300;
-      font-size: 17px;
-      color: #999; }
-  #fourth div div div {
-    background-color: #fff;
-    border-radius: 6px; }
-    #fourth div div div div img {
-      width: 230px;
-      height: 345; }
-    #fourth div div div div div h6 {
-      color: #e91e63;
-      font-size: 13px;
-      font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-      font-weight: 500;
-      cursor: pointer; }
-    #fourth div div div div div h4 {
+  #fourth div div h2 {
+    font-family: "Roboto Slab", "Times New Roman", serif;
+    font-weight: 700;
+    color: #3c4858;
+    font-size: 36.4px; }
+  #fourth div div h5 {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: #999; }
+  #fourth div {
+    margin: 52px -15px 38px;
+    padding: 0 37px; }
+    #fourth div div div {
+      background-color: #fff;
+      border-radius: 6px;
+      width: 100%;
+      margin: -36px 0px 24px; }
+      #fourth div div div div img {
+        width: 230px;
+        height: 345px;
+        border-radius: 6px;
+        margin-top: -40px;
+        box-shadow: -1px 3px 8px #888888;
+        cursor: pointer; }
+      #fourth div div div div div h6 {
+        color: #e91e63;
+        font-size: 13px;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        font-weight: 500;
+        cursor: pointer; }
+      #fourth div div div div div h4 {
+        color: #3c4858;
+        font-family: "Roboto Slab", "Times New Roman", serif;
+        font-weight: 700;
+        font-size: 18px; }
+      #fourth div div div div div p {
+        color: #999;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        font-weight: 300;
+        font-size: 13px; }
+      #fourth div div div div div div {
+        display: inline; }
+
+#fifth {
+  width: initial; }
+  #fifth div div h2 {
+    font-family: "Roboto Slab", "Times New Roman", serif;
+    font-weight: 700;
+    color: #3c4858;
+    font-size: 36.4px; }
+  #fifth div div h5 {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: #999; }
+
+#row-photo1 {
+  display: flex;
+  width: 1170px;
+  height: 340px; }
+  #row-photo1 div img {
+    width: 359px;
+    height: 271px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 46px;
+    border-radius: 6px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+
+#row-photo2 {
+  display: flex;
+  width: 1170px;
+  height: 340px; }
+  #row-photo2 div img {
+    width: 555px;
+    height: 280px;
+    padding: 0 0px 0px 0px;
+    margin: -22px 0px 0px 48px;
+    border-radius: 6px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+
+#row-photo3 {
+  display: flex;
+  width: 1170px;
+  height: 340px; }
+  #row-photo3 div img {
+    width: 360px;
+    height: 280px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 46px;
+    border-radius: 6px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+
+#sixth {
+  width: initial; }
+  #sixth div div h2 {
+    font-family: "Roboto Slab", "Times New Roman", serif;
+    font-weight: 700;
+    color: #3c4858;
+    font-size: 36.4px; }
+  #sixth div div h5 {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #999; }
+
+#team1 {
+  width: 1170px;
+  height: 197px;
+  margin: 107px 0 0 57px; }
+  #team1 div div div img {
+    width: 201px;
+    height: 201px; }
+  #team1 div div div {
+    width: 282px;
+    height: 255px; }
+    #team1 div div div div h4 {
       color: #3c4858;
       font-family: "Roboto Slab", "Times New Roman", serif;
       font-weight: 700;
       font-size: 18px; }
-    #fourth div div div div div p {
+    #team1 div div div div h6 {
+      color: #777;
+      font-size: 12.6px;
+      font-weight: 500; }
+    #team1 div div div div p {
       color: #999;
+      font-size: 14px;
       font-family: "Roboto", "Helvetica", "Arial", sans-serif;
       font-weight: 300; }
+
+#team2 {
+  width: 1170px;
+  height: 340px;
+  margin: 107px 0 0 57px; }
+  #team2 div div div img {
+    width: 201px;
+    height: 201px; }
+  #team2 div div div {
+    width: 282px;
+    height: 255px; }
+    #team2 div div div div h4 {
+      color: #3c4858;
+      font-family: "Roboto Slab", "Times New Roman", serif;
+      font-weight: 700;
+      font-size: 18px; }
+    #team2 div div div div h6 {
+      color: #777;
+      font-size: 12.6px;
+      font-weight: 500; }
+    #team2 div div div div p {
+      color: #999;
+      font-size: 14px;
+      font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+      font-weight: 300; }
+
+#ceo i {
+  color: #3B5998; }
+#ceo i {
+  color: #DD4B39; }
+#ceo i {
+  color: #55ACEE; }
+#ceo i {
+  color: #0976B4; }
+
+#marketing i {
+  color: #3B5998; }
+#marketing i {
+  color: #55ACEE; }
+#marketing i {
+  color: #CC2127; }
+#marketing i {
+  color: #0976B4; }
+
+#designer i {
+  color: #3B5998; }
+#designer i {
+  color: #55ACEE; }
+#designer i {
+  color: #0976B4; }
+#designer i {
+  color: #DF3E7B; }
+
+#developer i {
+  color: black; }
+#developer i {
+  color: #3B5998; }
+#developer i {
+  color: #55ACEE; }
+#developer i {
+  color: #0976B4; }
 
 /*# sourceMappingURL=main.css.map */
