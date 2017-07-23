@@ -6929,4 +6929,32 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
 #verde {
   color: #4CAF50; }
 
+#third {
+  background-color: black;
+  width: initial;
+  height: 964px; }
+  #third div div {
+    margin-top: 46px;
+    margin-left: 83px;
+    margin-right: -274px;
+    padding-right: 199px; }
+    #third div div h2 {
+      font-family: "Roboto Slab", "Times New Roman", serif;
+      color: #fff;
+      font-weight: 700;
+      font-size: 36px; }
+    #third div div p {
+      font-family: "Open Sans", sans-serif;
+      font-size: 16px;
+      color: #fff;
+      padding-top: 18px; }
+  #third div div img {
+    width: 550px;
+    height: 433px;
+    margin-left: 95px; }
+
+#parrf2 {
+  margin-top: -22px;
+  color: #fff; }
+
 /*# sourceMappingURL=main.css.map */

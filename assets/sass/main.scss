@@ -206,3 +206,39 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
 #verde {
 	color:#4CAF50;
 }
+#third{
+	background-color:black;
+	width: initial;
+    height: 964px;
+	div{
+		div{
+    		margin-top: 46px;
+    		margin-left: 83px;
+    		margin-right: -274px;
+    		padding-right: 199px;
+			h2{
+				font-family:$titulos_font;
+				color:#fff;
+				font-weight:700;
+				font-size:36px;
+			}
+			p{
+				font-family:$text_font;
+				font-size: 16px;
+				color:#fff;
+				padding-top: 18px;
+			}
+		}
+		div{
+			img{
+				width: 550px;
+				height: 433px;
+				margin-left: 95px;
+			}
+		}
+	}
+}
+#parrf2{
+	margin-top: -22px;
+	color:#fff;
+}
