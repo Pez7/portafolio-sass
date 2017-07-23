@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Demo | Themelsle</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
@@ -35,18 +36,19 @@
 		<div class="nav-wrapper">
 			<a href="#!" class="brand-logo">Hestia Pro</a>
 			<ul class="right hide-on-med-and-down">
-				<li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="material-icons left">cloud</i> FEATURES<i class="material-icons right">arrow_drop_down</i></a></li>
-				<li><a class="dropdown-button" href="#!" data-activates="dropdown2"><i class="material-icons left">cloud</i>SECTIONS<i class="material-icons right">arrow_drop_down</i></a></li>
-	      		<li><a href="#!" class="waves-light">SHOP</a></li>
-	      		<li><a href="#!" class="waves-light">BLOG</a></li>
-	      		<li><a href="#!" class="waves-light">CONTACT</a></li>
-	      		<li><a href="#!" class="waves-light btn" id="btn-color">BUY NOW</a></li>
+				<li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="material-icons left">cloud</i>FEATURES<i class="material-icons right">arrow_drop_down</i></a></li>
+				<li><a class="dropdown-button" href="#!" data-activates="dropdown2"><i class="fa fa-arrow-up left" aria-hidden="true"></i>SECTIONS<i class="material-icons right">arrow_drop_down</i></a></li>
+	      		<li><a href="#!" class="waves-light"><i class="fa fa-shopping-bag left" aria-hidden="true"> </i>SHOP</a></li>
+	      		<li><a href="#!" class="waves-light"><i class="fa fa-rss left" aria-hidden="true"></i>BLOG</a></li>
+	      		<li><a href="#!" class="waves-light"><i class="fa fa-envelope left" aria-hidden="true"></i>CONTACT</a></li>
+	      		<li><a href="#!" class="waves-light btn" id="btn-color"><i class="fa fa-shopping-cart left" aria-hidden="true"></i>BUY NOW</a></li>
 			</ul>
 		</div>
 	</nav>
 	<div class="carousel">
 		<div class="wrapper">
 			<div class="item">
+			<img src="assets/img/img_slider_2.jpg" alt="">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col m12 center">
@@ -58,6 +60,7 @@
 				</div>
 			</div>
 			<div class="item">
+				<img src="assets/img/img_slider_1.jpg" alt="">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col m12 center">
@@ -82,7 +85,7 @@
 		<div class="row">
 			<div class="col offset-m2"></div>
 			<div class="col m8 center">
-				<p>Nullam blandit gravida viverra. Etiam turpis erat, sagittis sit amet felis non, porta porta justo. Integer ornare nibh nulla, id pulvinar metus cursus semper. Vivamus dictum pellentesque mi. Vivamus ipsum tellus, mattis non ex sed, semper sodales ligula. Vivamus luctus lorem.</p>
+				<h5>Nullam blandit gravida viverra. Etiam turpis erat, sagittis sit amet felis non, porta porta justo. Integer ornare nibh nulla, id pulvinar metus cursus semper. Vivamus dictum pellentesque mi. Vivamus ipsum tellus, mattis non ex sed, semper sodales ligula. Vivamus luctus lorem.</h5>
 			</div>
 			<div class="col offset-m2"></div>
 		</div>
@@ -444,51 +447,58 @@
 	<section id="eleventh" class="container">
 		<div class="row">
 			<div class="col m5">
-				<h2></h2>
-				<h5></h5>
+				<h2>Get in Touch</h2>
+				<h5>You need more information? Check what other persons are saying about our product. They are very happy with their purchase.</h5>
 				<div>
 					<div></div>
 					<i></i>
 					<div>
-						<h4></h4>
-						<p></p>
+						<h4>Find us at the office</h4>
+						<p>Bld Mihail Kogalniceanu, nr. 8,7652 Bucharest,Romania</p>
 					</div>
 				</div>
 				<div>
 					<div></div>
 					<i></i>
 					<div>
-						<h4></h4>
-						<p></p>
+						<h4>Give us a ring</h4>
+						<p>Michael Jordan +40 762 321 762 Mon - Fri, 8:00-22:00</p>
 					</div>
 				</div>
 			</div>
 			<div class="col m1"></div>
 			<div class="col m5">
 				<div>
-					<h4></h4>
+					<h4>Contact Us</h4>
 					<div>
 						<div class="row">
-							<div class="col m6">
-								<input type="text">
+							<div class="input-field col m6">
+								<input id="name" type="text" class="validate">
+								<label for="name">Your Name</label>
 							</div>
-							<div class="col m6">
-								<input type="text">
+							<div class="input-field col m6">
+								<input id="email" type="email" class="validate">
+								<label for="email">Email</label>
+							</div>
+						<div class="row">
+							<div class="input-field col m12">
+								<input id="subject" type="text" class="validate">
+								<label for="subject">Subject</label>
 							</div>
 						</div>
 						<div class="row">
-							<div class="col m12">
-								<input type="text">
-							</div>
-						</div>
-						<div class="row">
-							<div class="col m12">
-								<textarea></textarea>
-							</div>
+							<form class="col s12">
+								<div class="row">
+									<div class="input-field col s12">
+										<textarea id="textarea1" class="materialize-textarea"></textarea>
+										<label for="textarea1">Textarea</label>
+									</div>
+								</div>
+							</form>
 						</div>
 						<div class="row">
 							<div class="col m6 offset-m6">
-								<a href="" class="btn"></a>
+								<a href="" class="btn">SEND MESSAGE</a>
 							</div>
 						</div>
 					</div>
@@ -496,6 +506,79 @@
 			</div>
 		</div>
 	</section>
+	<footer class="container">
+		<div class="row">
+			<div class="col m4">
+				<div>
+					<h5>About us</h5>
+					<div>
+						<p>Inhabit hearing perhaps on ye do no. It maids decay as there he. Smallest on suitable disposed although do blessing he juvenile in.</p>
+						<p>Society excited forbade. Here name off yet she long sold easy. Differed oh cheerful procured pleasure securing suitable. Hold rich on an he oh fine. Chapter ability shyness article welcome be do on service.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col m4">
+				<div>
+					<h5>Social Media Feed</h5>
+					<div>
+						<p>What's New in Hestia - Our Flagship Product HTTPS://T.CO/LSLFRTYPZX</p>
+						<p>Our Hestia Facebook Group has reached 169 members & counting HTTPS://WWW.FACEBOOK.COM/GROUPS/2024469201114053</p>
+						<p>Great example of our #WORDPRESS theme Hestia HTTPS://WWW.JELLESCHUURMAN.NL</p>
+					</div>
+				</div>
+			</div>
+			<div class="col m4">
+				<div>
+					<h5>Instagram Feed</h5>
+					<div>
+						<div class="row">
+							<div class="col m3">
+								<img src="assets/img/img_instagram_1.jpg" alt="">
+							</div>
+							<div class="col m3">
+								<img src="assets/img/img_instagram_2.jpg" alt="">
+							</div>
+							<div class="col m3">
+								<img src="assets/img/img_instagram_3.jpg" alt="">
+							</div>
+							<div class="col m3">
+								<img src="assets/img/img_instagram_4.jpg" alt="">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col m3">
+								<img src="assets/img/img_instagram_5.jpg" alt="">
+							</div>
+							<div class="col m3">
+								<img src="assets/img/img_instagram_6.jpg" alt="">
+							</div>
+							<div class="col m3">
+								<img src="assets/img/img_instagram_7.jpg" alt="">
+							</div>
+							<div class="col m3">
+								<img src="assets/img/img_instagram_8.jpg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col m5">
+				<ul>
+					<li><a href="#!">BLOG</a></li>
+					<li><a href="#!">PRESENTATION</a></li>
+					<li><a href="#!">DISCOVER</a></li>
+					<li><a href="#!">PAYMENT</a></li>
+					<li><a href="#!">CONTACT</a></li>
+				</ul>
+			</div>
+			<div class="col m4"></div>
+			<div class="col m3">
+				<p>Hestia | Powered By WordPress</p>
+			</div>
+		</div>
+	</footer>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script src="https://use.fontawesome.com/1625bb79ec.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.0/js/materialize.min.js"></script>

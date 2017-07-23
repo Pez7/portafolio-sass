@@ -1,15 +1,15 @@
 @import 'materialize-src/sass/materialize.scss';
 @import '_bases.scss';
+@import '_variables.scss';
 @import 'assets/css/dashicons.min.css';
 
 .carousel {
   overflow: hidden;
   position: relative;
   margin: 0 auto;
-  max-width: 1200px;
   width: 100%;
   display:none;
-  
+  height:574px;
   .wrapper {
     left: 0px;
     display: block;
@@ -21,7 +21,6 @@
       clear: both;
       visibility: hidden;
       line-height: 0;
-      height: 0;
     }
     
     .item {
@@ -31,12 +30,40 @@
       backface-visibility: hidden;
       transform: translate3d(0,0,0);
       width:100%;
+      img{
+		position:absolute;
+		width:100%;
+      }
+      div{
+      	position:relative;
+      	z-index:100;
+      	margin-top: 82px;
+      	h1{
+      		font-family:$carousel_font;
+      		font-weight:700;
+      		color:#fff;
+      	}
+      	p{
+      		font-family:$carousel_font;
+      		font-size:18.2px;
+      		color:#fff;
+      	}
+      	a{
+			font-family:$carousel_font;
+			width: 136px;
+			height: 52px;
+			padding-top: 8px;
+			font-size: 14px;
+			background-color: #e91e63;
+			margin-top: 41px;
+      	}
+      }
     }
   }
   
   .control {
     .next, .prew {
-      position: relative;
+      position: absolute;
       top: 0;
       bottom: 0;
       width: 10%;
@@ -50,42 +77,48 @@
     
     .prew {
       left: 0;
+      i{
+		font-size: 50px;
+      }
     }
     
     .next {
       right: 0;
-    }
-    
-    .buletts {
-      position: relative;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      color: #fff;
-      display: flex;
-      justify-content: center;
-      
-      li {
-        width: 8px;
-        height: 8px;
-        border-radius: 50%;
-        border: 1px solid #fff;
-        margin: 15px 5px;
-        cursor: pointer;
-        
-        &.active {
-          background: #fff;
-        }
+      i{
+		font-size: 50px;
       }
     }
   }
 }
-body{
-	background-color:#2bbbad;
-}
 nav{
 	position:fixed;
-	color:none;
+    height: 67px;
+    background-color: transparent;
+    z-index:100;
+	div{
+		.brand-logo{
+			font-size: 18px;
+			margin-top: 0;
+			margin-left: 106px;
+		}
+	}
+}
+nav{
+	ul{
+		a{
+			font-size: 12px;
+		}
+	}
+}
+#btn-color{
+	background-color: #e91e63;
+    font-size: 12px;
+    height: 51px;
+    padding-top: 7px;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
+	font-size:16px;
 }
 #dropdown1 {
 	padding: 0;
@@ -100,6 +133,7 @@ nav{
 		}
 	}
 }
+
 #dropdown1 {
 	padding: 0;
     margin: 47px 0 0 -90px;
@@ -135,15 +169,18 @@ nav{
 	background-color:#fff;
 	width: initial;
 	border-radius:10px;
+	position: relative;
+    margin-top: -59px;
 	div{
 		div{}
 		div{
-			p{
-				color:#c1c1c1;
+			h5{
+				font-family:$carousel_font;
+				color: #c1c1c1;
+				font-size: 20px;
+				margin-top: 78px;
+				font-weight:300;
 			}
 		}
 	}
-}
-#third{
-
 }
