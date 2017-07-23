@@ -6776,9 +6776,6 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 #img1 {
   background-image: url(assets/img/img_slider_2.jpg); }
 
-body {
-  background-color: #A0A0A0; }
-
 .carousel {
   overflow: hidden;
   position: relative;
@@ -6798,15 +6795,17 @@ body {
       visibility: hidden;
       line-height: 0; }
     .carousel .wrapper .item {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: bottom;
+      height: 100vh;
       float: left;
       display: block;
       height: auto;
       backface-visibility: hidden;
       transform: translate3d(0, 0, 0);
-      width: 100%; }
-      .carousel .wrapper .item img {
-        position: absolute;
-        width: 100%; }
+      width: 100%;
+      height: 100vh; }
       .carousel .wrapper .item div {
         position: relative;
         z-index: 100;
@@ -6908,8 +6907,7 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
   width: initial;
   border-radius: 10px 10px 0 0;
   position: relative;
-  margin-top: -59px;
-  height: 555px; }
+  margin-top: -59px; }
   #second div div h5 {
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     color: #999;
@@ -6943,9 +6941,12 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
   color: #4CAF50; }
 
 #third {
-  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   width: initial;
-  height: 964px; }
+  margin-top: -19px;
+  height: 100%; }
   #third div div {
     margin-top: 46px;
     margin-left: 83px;
@@ -6971,7 +6972,7 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
   color: #fff; }
 
 #fourth {
-  background-color: #F5ECDC;
+  background-color: #f0f0f0;
   width: initial; }
   #fourth div div {
     margin-top: 87px; }
@@ -6979,7 +6980,12 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
       font-family: "Roboto Slab", "Times New Roman", serif;
       font-weight: 700;
       color: #3c4858;
-      font-size: 3.10rem; }
+      font-size: 36.4px; }
+    #fourth div div h5 {
+      font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+      font-weight: 300;
+      font-size: 17px;
+      color: #999; }
   #fourth div div div div img {
     width: 230px;
     height: 345; }

@@ -3,7 +3,7 @@
 @import '_variables.scss';
 @import 'assets/css/dashicons.min.css';
 
-body{background-color:#A0A0A0;}
+
 .carousel {
   overflow: hidden;
   position: relative;
@@ -25,43 +25,45 @@ body{background-color:#A0A0A0;}
     }
     
     .item {
-      float: left;
-      display: block;
-      height: auto;
-      backface-visibility: hidden;
-      transform: translate3d(0,0,0);
-      width:100%;
-      img{
-		position:absolute;
-		width:100%;
-      }
-      div{
-      	position:relative;
-      	z-index:100;
-      	margin-top: 82px;
-      	h1{
-      		font-family:$carousel_font;
-      		font-weight:700;
-      		color:#fff;
-      	}
-      	p{
-      		font-family:$carousel_font;
-      		font-size:18.2px;
-      		color:#fff;
-      	}
-      	a{
-			font-family:$carousel_font;
-			width: 136px;
-			height: 52px;
-			padding-top: 8px;
-			font-size: 14px;
-			background-color: #e91e63;
-			margin-top: 41px;
-      	}
-      }
-    }
-  }
-  
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: bottom;
+			height: 100vh;
+			float: left;
+			display: block;
+			height: auto;
+			backface-visibility: hidden;
+			transform: translate3d(0,0,0);
+			width:100%;
+			height:100vh;
+
+			div{
+				position:relative;
+				z-index:100;
+				margin-top: 82px;
+				h1{
+					font-family:$carousel_font;
+					font-weight:700;
+					color:#fff;
+				}
+				p{
+					font-family:$carousel_font;
+					font-size:18.2px;
+					color:#fff;
+				}
+				a{
+					font-family:$carousel_font;
+					width: 136px;
+					height: 52px;
+					padding-top: 8px;
+					font-size: 14px;
+					background-color: #e91e63;
+					margin-top: 41px;
+				}
+			}
+		}
+}
+
   .control {
     .next, .prew {
       position: absolute;
@@ -172,7 +174,6 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
 	border-radius: 10px 10px 0 0;
 	position: relative;
     margin-top: -59px;
-    height: 555px;
 	div{
 		div{
 		}
@@ -218,15 +219,18 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
 	color:#4CAF50;
 }
 #third{
-	background-color:black;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	width: initial;
-    height: 964px;
+    margin-top:-19px;
+    height:100%;
 	div{
 		div{
-    		margin-top: 46px;
-    		margin-left: 83px;
-    		margin-right: -274px;
-    		padding-right: 199px;
+			margin-top: 46px;
+			margin-left: 83px;
+			margin-right: -274px;
+			padding-right: 199px;
 			h2{
 				font-family:$titulos_font;
 				color:#fff;
@@ -249,12 +253,13 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
 		}
 	}
 }
+
 #parrf2{
 	margin-top: -22px;
 	color:#fff;
 }
 #fourth{
-		background-color: #F5ECDC;
+		background-color: #f0f0f0;
 		width: initial;
 	div{
 		div{
@@ -263,9 +268,14 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
 				font-family:$titulos_font;
 				font-weight: 700;
 				color: #3c4858;
-				font-size: 3.10rem;
+				font-size: 36.4px;
 			}
-			h5{}
+			h5{
+				font-family: $textos;
+				font-weight:300;
+				font-size:17px;
+				color:#999;
+			}
 		}
 	}
 	div{
