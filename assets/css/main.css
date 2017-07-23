@@ -6907,10 +6907,26 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
   position: relative;
   margin-top: -59px; }
   #second div div h5 {
-    font-family: "Roboto", sans-serif;
     color: #c1c1c1;
     font-size: 20px;
     margin-top: 78px;
     font-weight: 300; }
+
+#box div {
+  padding-left: 107px;
+  margin-top: 51px; }
+  #box div h4 {
+    font-size: 18.2px; }
+  #box div p {
+    color: #c1c1c1; }
+
+#rosa {
+  color: #E91E63; }
+
+#turq {
+  color: #00BCD4; }
+
+#verde {
+  color: #4CAF50; }
 
 /*# sourceMappingURL=main.css.map */

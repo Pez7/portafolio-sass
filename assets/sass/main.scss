@@ -172,10 +172,10 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
 	position: relative;
     margin-top: -59px;
 	div{
-		div{}
+		div{
+		}
 		div{
 			h5{
-				font-family:$carousel_font;
 				color: #c1c1c1;
 				font-size: 20px;
 				margin-top: 78px;
@@ -183,4 +183,26 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
 			}
 		}
 	}
+}
+#box{
+		div{
+			padding-left: 107px;
+			margin-top:51px;
+			h4{
+				font-size: 18.2px;
+			}
+			p{
+				color:#c1c1c1;
+			}
+		}
+}
+
+#rosa{
+	color:#E91E63;
+}
+#turq{
+	color:#00BCD4;
+}
+#verde {
+	color:#4CAF50;
 }
