@@ -6776,6 +6776,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 #img1 {
   background-image: url(assets/img/img_slider_2.jpg); }
 
+body {
+  background-color: #A0A0A0; }
+
 .carousel {
   overflow: hidden;
   position: relative;
@@ -6903,22 +6906,32 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
 #second {
   background-color: #fff;
   width: initial;
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
   position: relative;
-  margin-top: -59px; }
+  margin-top: -59px;
+  height: 555px; }
   #second div div h5 {
-    color: #c1c1c1;
-    font-size: 20px;
-    margin-top: 78px;
-    font-weight: 300; }
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    color: #999;
+    font-size: 17px;
+    margin-top: 81px;
+    font-weight: 300;
+    line-height: 27.125px;
+    width: 731px;
+    height: 81px; }
 
-#box div {
-  padding-left: 107px;
-  margin-top: 51px; }
-  #box div h4 {
-    font-size: 18.2px; }
-  #box div p {
-    color: #c1c1c1; }
+#box {
+  padding: 45px 68px; }
+  #box div {
+    padding-left: 16px; }
+    #box div h4 {
+      font-family: "Roboto Slab", "Times New Roman", serif;
+      font-size: 18.2px;
+      font-weight: 700;
+      color: #3c4858; }
+    #box div p {
+      color: #999;
+      font-size: 16px; }
 
 #rosa {
   color: #E91E63; }
@@ -6956,5 +6969,19 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
 #parrf2 {
   margin-top: -22px;
   color: #fff; }
+
+#fourth {
+  background-color: #F5ECDC;
+  width: initial; }
+  #fourth div div {
+    margin-top: 87px; }
+    #fourth div div h2 {
+      font-family: "Roboto Slab", "Times New Roman", serif;
+      font-weight: 700;
+      color: #3c4858;
+      font-size: 3.10rem; }
+  #fourth div div div div img {
+    width: 230px;
+    height: 345; }
 
 /*# sourceMappingURL=main.css.map */

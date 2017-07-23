@@ -3,6 +3,7 @@
 @import '_variables.scss';
 @import 'assets/css/dashicons.min.css';
 
+body{background-color:#A0A0A0;}
 .carousel {
   overflow: hidden;
   position: relative;
@@ -168,31 +169,41 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
 #second{
 	background-color:#fff;
 	width: initial;
-	border-radius:10px;
+	border-radius: 10px 10px 0 0;
 	position: relative;
     margin-top: -59px;
+    height: 555px;
 	div{
 		div{
 		}
 		div{
 			h5{
-				color: #c1c1c1;
-				font-size: 20px;
-				margin-top: 78px;
-				font-weight:300;
+				font-family:$textos;
+				color: #999;
+				font-size: 17px;
+				margin-top: 81px;
+				font-weight: 300;
+				line-height: 27.125px;
+				width: 731px;
+				height: 81px;
 			}
 		}
 	}
 }
 #box{
+	padding: 45px 68px;
 		div{
-			padding-left: 107px;
-			margin-top:51px;
+			padding-left: 16px;
+
 			h4{
+				font-family:$titulos_font;
 				font-size: 18.2px;
+				font-weight: 700;
+				color:#3c4858;
 			}
 			p{
-				color:#c1c1c1;
+				color:#999;
+				font-size:16px;
 			}
 		}
 }
@@ -241,4 +252,42 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
 #parrf2{
 	margin-top: -22px;
 	color:#fff;
+}
+#fourth{
+		background-color: #F5ECDC;
+		width: initial;
+	div{
+		div{
+			margin-top: 87px;
+			h2{
+				font-family:$titulos_font;
+				font-weight: 700;
+				color: #3c4858;
+				font-size: 3.10rem;
+			}
+			h5{}
+		}
+	}
+	div{
+		div{
+			div{
+				div{
+					img{
+						width:230px;
+						height:345;
+					}
+					div{
+						h6{}
+						h4{}
+						p{}
+						div{
+							p{
+								
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }
