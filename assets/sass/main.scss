@@ -592,7 +592,56 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
 		background-color:#e91e63;
 	}
 }
-
 small{
 	font-size:18px;
+}
+#eighth{
+		padding-bottom:10px;
+		width: initial;
+		div{
+			div{
+				h2{
+					color:#3c4858;
+					font-family:$titulos_font;
+					font-size:34px;
+					font-weight:700;
+					padding: 75px 0 0px 67px;
+				}
+				h5{
+				    padding: 12px 268px 0;
+				    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+				    font-weight: 300;
+				    font-size: 18px;
+				    color: #999;
+			}
+		}
+	}
+}
+
+.client{
+	padding-bottom: 62px;
+	img{
+		width:100px;
+		height:100px;
+	}
+	div{
+		h4{
+			font-family:$titulos_font;
+			font-weight:700;
+			font-size:18px;
+			color:#3c4858;
+		}
+		h6{
+			color:#777;
+			font-size:12px;
+			font-weight:500;
+			font-family:$textos;
+		}
+		p{
+			color:#999;
+			font-family:$textos;
+			font-weight:300;
+			padding: 0 20px;
+		}
+	}
 }

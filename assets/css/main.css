@@ -7213,4 +7213,41 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
 small {
   font-size: 18px; }
 
+#eighth {
+  padding-bottom: 10px;
+  width: initial; }
+  #eighth div div h2 {
+    color: #3c4858;
+    font-family: "Roboto Slab", "Times New Roman", serif;
+    font-size: 34px;
+    font-weight: 700;
+    padding: 75px 0 0px 67px; }
+  #eighth div div h5 {
+    padding: 12px 268px 0;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #999; }
+
+.client {
+  padding-bottom: 62px; }
+  .client img {
+    width: 100px;
+    height: 100px; }
+  .client div h4 {
+    font-family: "Roboto Slab", "Times New Roman", serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #3c4858; }
+  .client div h6 {
+    color: #777;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif; }
+  .client div p {
+    color: #999;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    padding: 0 20px; }
+
 /*# sourceMappingURL=main.css.map */
