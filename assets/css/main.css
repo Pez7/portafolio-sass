@@ -6776,6 +6776,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 #img1 {
   background-image: url(assets/img/img_slider_2.jpg); }
 
+#contenedor {
+  background-color: #fff; }
+
 .carousel {
   overflow: hidden;
   position: relative;
@@ -6863,7 +6866,8 @@ nav ul a {
   background-color: #e91e63;
   font-size: 12px;
   height: 51px;
-  padding-top: 7px; }
+  padding: 7px 18px 0;
+  margin: 0 111px 0 0; }
 
 nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
   font-size: 16px; }
@@ -6976,6 +6980,7 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
   background-color: #f0f0f0;
   width: initial; }
   #fourth div div h2 {
+    margin-top: 85px;
     font-family: "Roboto Slab", "Times New Roman", serif;
     font-weight: 700;
     color: #3c4858;
@@ -6984,38 +6989,46 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     font-weight: 300;
     font-size: 17px;
-    color: #999; }
-  #fourth div {
-    margin: 52px -15px 38px;
-    padding: 0 37px; }
-    #fourth div div div {
-      background-color: #fff;
+    color: #999;
+    margin-bottom: 101px; }
+
+.tarjeta {
+  padding: 0 28px; }
+
+#sth {
+  margin: 0;
+  padding: 0; }
+  #sth div div {
+    background-color: #fff;
+    border-radius: 6px;
+    width: 100%;
+    margin: -36px 0px 24px; }
+    #sth div div div img {
+      width: 230px;
+      height: 345px;
       border-radius: 6px;
-      width: 100%;
-      margin: -36px 0px 24px; }
-      #fourth div div div div img {
-        width: 230px;
-        height: 345px;
-        border-radius: 6px;
-        margin-top: -40px;
-        cursor: pointer; }
-      #fourth div div div div div h6 {
+      margin-top: -40px;
+      cursor: pointer; }
+    #sth div div div div {
+      margin-top: 36px; }
+      #sth div div div div h6 {
         color: #e91e63;
         font-size: 13px;
         font-family: "Roboto", "Helvetica", "Arial", sans-serif;
         font-weight: 500;
         cursor: pointer; }
-      #fourth div div div div div h4 {
+      #sth div div div div h4 {
         color: #3c4858;
         font-family: "Roboto Slab", "Times New Roman", serif;
         font-weight: 700;
         font-size: 18px; }
-      #fourth div div div div div p {
+      #sth div div div div p {
+        padding: 0px 49px;
         color: #999;
         font-family: "Roboto", "Helvetica", "Arial", sans-serif;
         font-weight: 300;
-        font-size: 13px; }
-      #fourth div div div div div div {
+        font-size: 14px; }
+      #sth div div div div div {
         display: inline; }
 
 #fifth {
@@ -7127,6 +7140,18 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
       font-family: "Roboto", "Helvetica", "Arial", sans-serif;
       font-weight: 300; }
 
+#ceo i {
+  padding: 19px 20px; }
+
+#marketing i {
+  padding: 19px 20px; }
+
+#designer i {
+  padding: 19px 20px; }
+
+#developer i {
+  padding: 19px 20px; }
+
 .fa-facebook {
   color: #3B5998; }
 
@@ -7144,8 +7169,5 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
 
 .fa-dribbble {
   color: #DF3E7B; }
-
-.fa {
-  padding: 19px 20px; }
 
 /*# sourceMappingURL=main.css.map */
