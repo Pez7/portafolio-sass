@@ -6998,7 +6998,6 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
         height: 345px;
         border-radius: 6px;
         margin-top: -40px;
-        box-shadow: -1px 3px 8px #888888;
         cursor: pointer; }
       #fourth div div div div div h6 {
         color: #e91e63;
@@ -7041,8 +7040,7 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
     height: 271px;
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 46px;
-    border-radius: 6px;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+    border-radius: 6px; }
 
 #row-photo2 {
   display: flex;
@@ -7053,8 +7051,7 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
     height: 280px;
     padding: 0 0px 0px 0px;
     margin: -22px 0px 0px 48px;
-    border-radius: 6px;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+    border-radius: 6px; }
 
 #row-photo3 {
   display: flex;
@@ -7065,8 +7062,7 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
     height: 280px;
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 46px;
-    border-radius: 6px;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+    border-radius: 6px; }
 
 #sixth {
   width: initial; }
@@ -7131,40 +7127,25 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
       font-family: "Roboto", "Helvetica", "Arial", sans-serif;
       font-weight: 300; }
 
-#ceo i {
+.fa-facebook {
   color: #3B5998; }
-#ceo i {
+
+.fa-google-plus {
   color: #DD4B39; }
-#ceo i {
+
+.fa-twitter {
   color: #55ACEE; }
-#ceo i {
+
+.fa-linkedin {
   color: #0976B4; }
 
-#marketing i {
-  color: #3B5998; }
-#marketing i {
-  color: #55ACEE; }
-#marketing i {
+.fa-pinterest {
   color: #CC2127; }
-#marketing i {
-  color: #0976B4; }
 
-#designer i {
-  color: #3B5998; }
-#designer i {
-  color: #55ACEE; }
-#designer i {
-  color: #0976B4; }
-#designer i {
+.fa-dribbble {
   color: #DF3E7B; }
 
-#developer i {
-  color: black; }
-#developer i {
-  color: #3B5998; }
-#developer i {
-  color: #55ACEE; }
-#developer i {
-  color: #0976B4; }
+.fa {
+  padding: 19px 20px; }
 
 /*# sourceMappingURL=main.css.map */
