@@ -563,4 +563,36 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
 			}
 		}
 }
+.card1{
+    margin-top: 78px;
+    padding: 10px 0 36px 0;
+	h6{
+		font-size:12px;
+		color:#999;
+		font-family:$textos;
+	}
+	h3{
+		font-size:60px;
+		font-weight:700;
+    	margin: 30px 0 -15px;
+		font-family:$titulos_font;
+		color:#3c4858;
+	}
+	ul{
+		font-size:15px;
+		margin:10px auto;
+		li{
+			color:#999;
+			font-family:$textos;
+    		margin: 30px 57px;
+    		border-bottom: 1px solid lightgray;
+		}
+	}
+	a{
+		background-color:#e91e63;
+	}
+}
 
+small{
+	font-size:18px;
+}
