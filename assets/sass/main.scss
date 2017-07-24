@@ -541,3 +541,26 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
 	color:#DF3E7B;
 }
 
+#seventh{
+		background-color: #F0F0F0;
+		width: initial;
+		div{
+			div{
+				h2{
+					color:#3c4858;
+					font-family:$titulos_font;
+					font-size:34px;
+					font-weight:700;
+					padding: 75px 0 0px 67px;
+				}
+				p{
+					padding-left:67px;
+					color: #999;
+					font-family:$textos;
+					font-weight:300;
+					font-size: 14px;
+				}
+			}
+		}
+}
+

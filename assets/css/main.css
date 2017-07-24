@@ -7170,4 +7170,20 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
 .fa-dribbble {
   color: #DF3E7B; }
 
+#seventh {
+  background-color: #F0F0F0;
+  width: initial; }
+  #seventh div div h2 {
+    color: #3c4858;
+    font-family: "Roboto Slab", "Times New Roman", serif;
+    font-size: 34px;
+    font-weight: 700;
+    padding: 75px 0 0px 67px; }
+  #seventh div div p {
+    padding-left: 67px;
+    color: #999;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 14px; }
+
 /*# sourceMappingURL=main.css.map */
